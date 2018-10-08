@@ -7,8 +7,8 @@ window.addEventListener("load", startUp, false);
 function startUp() {
   colorWell = document.querySelector("#colorWell");
   colorWell.value = defaultColor;
-  colorWell.addEventListener("input", updateAll, false);
-  colorWell.addEventListener("change", updateFirst, false);
+  colorWell.addEventListener("input", updateFirst, false);
+  colorWell.addEventListener("change", updateAll, false);
   colorWell.select();
 }
 
